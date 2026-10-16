@@ -7,3 +7,13 @@ liquibase.local.properties
 *.log
 .DS_Store
 Thumbs.db
+# Liquibase local CLI & binaries
+liquibase
+liquibase.bat
+lib/
+internal/
+examples/
+licenses/
+*.pkg
+*.txt
+liquibase.properties

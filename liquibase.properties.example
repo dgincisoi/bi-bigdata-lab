@@ -1,0 +1,6 @@
+changeLogFile=changelog/db.changelog-master.sql
+url=jdbc:databricks://dbc-xxxxxx.cloud.databricks.com:443/default;transportMode=http;ssl=1;httpPath=/sql/1.0/warehouses/xxxxxx;AuthMech=3;UID=token;PWD=<TU_TOKEN_AQUI>;ConnCatalog=workspace;ConnSchema=default;
+driver=com.databricks.client.jdbc.Driver
+datetimeDatatype=TIMESTAMP
+defaultCatalogName=workspace
+defaultSchemaName=default
