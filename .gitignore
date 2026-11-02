@@ -3,17 +3,12 @@ liquibase.properties
 liquibase.local.properties
 .env
 
-# Archivos temporales
+# Archivos temporales y del sistema
 *.log
 .DS_Store
 Thumbs.db
-# Liquibase local CLI & binaries
-liquibase
-liquibase.bat
-lib/
-internal/
-examples/
-licenses/
-*.pkg
-*.txt
-liquibase.properties
+desktop.ini
+
+# Restos de lpm si se ejecuta dentro del repo
+liquibase_libs/
+liquibase.json
